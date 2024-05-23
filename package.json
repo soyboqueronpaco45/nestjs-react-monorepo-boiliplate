@@ -1,0 +1,19 @@
+{
+  "name": "nestjs-react-monorepo-boiliplate",
+  "version": "0.0.1",
+  "description": "monorepo nestjs y react con vite",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "node ./apps/api/dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.13.3"
+  }
+}
