@@ -1,3 +1,5 @@
 node_modules
 
-apps/api/dist
+apps/backend/dist
+
+apps/backend/postgres
